@@ -1,20 +1,22 @@
-<servlet>
-    <servlet-name>inpt</servlet-name>
-    <jsp-file>/gitinpt.jsp</jsp-file>
-</servlet>
+<web-app>
+    <servlet>
+        <servlet-name>inpt</servlet-name>
+        <jsp-file>/gitinpt.jsp</jsp-file>
+    </servlet>
 
-<servlet-mapping>
-    <servlet-name>inpt</servlet-name>
-    <url-pattern>/gitinpt</url-pattern>
-</servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>inpt</servlet-name>
+        <url-pattern>/gitinpt</url-pattern>
+    </servlet-mapping>
 
 
-<servlet>
-    <servlet-name>request_name</servlet-name>
-    <servlet-class>GitInputServlet</servlet-class>
-</servlet>
+    <servlet>
+        <servlet-name>request_name</servlet-name>
+        <servlet-class>GitInputServlet</servlet-class>
+    </servlet>
 
-<servlet-mapping>
-    <servlet-name>request_name</servlet-name>
-    <url-pattern>/GitInputServlet</url-pattern>
-</servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>request_name</servlet-name>
+        <url-pattern>/GitInputServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
